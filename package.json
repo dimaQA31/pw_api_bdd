@@ -1,0 +1,20 @@
+{
+  "name": "playwright_with_bdd_api_by_dmytro_basiuk",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test_cucumber": "npx cucumber-js -p test_runner",
+    "prettier-check": "npx prettier . --check",
+    "prettier:write": "npx prettier --write ."
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.40.0"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^10.0.1",
+    "playwright": "^1.40.1",
+    "ts-node": "10.9.2",
+    "typescript": "5.3.3"
+  }
+}
